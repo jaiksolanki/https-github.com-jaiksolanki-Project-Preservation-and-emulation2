@@ -369,7 +369,7 @@ app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/0'
 app.config['CELERY_RESULT_BACKEND'] = 'redis://localhost:6379/0'
 app.config['MYSQL_DATABASE_USER'] = 'beproject'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'Beproject'
-app.config['MYSQL_DATABASE_DB'] = 'dockengine'
+app.config['MYSQL_DATABASE_DB'] = 'dock_engine'
 app.config['MYSQL_DATABASE_HOST'] = 'dockengine.cxd6jyo8ikqn.us-east-1.rds.amazonaws.com'
 celery = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])
 celery.conf.update(app.config)
