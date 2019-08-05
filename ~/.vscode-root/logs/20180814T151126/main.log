@@ -1,0 +1,4 @@
+[2018-08-14 15:11:26.750] [main] [info] update#setState idle
+[2018-08-14 15:11:45.358] [main] [error] webContents#will-navigate: Prevented webcontent navigation
+[2018-08-14 15:11:56.763] [main] [info] update#setState checking for updates
+[2018-08-14 15:11:58.848] [main] [info] update#setState available for download

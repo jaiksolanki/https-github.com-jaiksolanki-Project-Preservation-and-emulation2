@@ -1,0 +1,8 @@
+flask==0.12.2
+flask-mysql
+docker
+redis
+GitPython
+flask-sqlalchemy 
+flask-cors
+Celery
